@@ -43,3 +43,8 @@ git remote -v
 const port = process.env.PORT || 3000
 #add heroku post build command in package.json
 git push heroku master
+
+yarn add chalk --dev
+
+yarn install --production
+yarn install
