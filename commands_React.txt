@@ -48,3 +48,13 @@ yarn add chalk --dev
 
 yarn install --production
 yarn install
+
+yarn add numeral@2.0.6
+#async calls
+yarn add redux-thunk@2.2.0
+#to set end name
+yarn add --dev cross-env@5.0.5
+#to set environment variables
+yarn add --dev dotenv@4.0.0
+
+heroku config:set FIREBASE_API_KEY=AIzaSyA16pLNOOimIorjP4dCq3bNe-7TvIsuYJ0
