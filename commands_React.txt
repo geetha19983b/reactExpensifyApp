@@ -57,4 +57,9 @@ yarn add --dev cross-env@5.0.5
 #to set environment variables
 yarn add --dev dotenv@4.0.0
 
-heroku config:set FIREBASE_API_KEY=AIzaSyA16pLNOOimIorjP4dCq3bNe-7TvIsuYJ0
+
+heroku config:set FIREBASE_DATABASE_URL=https://expensifyrithu-aadd5.firebaseio.com
+
+yarn add history@4.7.2
+
+yarn add babel-polyfill@6.26.0
